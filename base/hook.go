@@ -1,12 +1,12 @@
 package base
 
 import (
+	"github.com/gzl-tommy/infra"
 	"github.com/sirupsen/logrus"
 	"os"
 	"os/signal"
 	"reflect"
 	"syscall"
-	"zuoluo.com/resk/infra"
 )
 
 var callbacks []func()

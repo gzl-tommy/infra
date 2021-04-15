@@ -1,12 +1,12 @@
 package base
 
 import (
+	"github.com/gzl-tommy/infra"
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/middleware/logger"
 	"github.com/kataras/iris/v12/middleware/recover"
 	"github.com/sirupsen/logrus"
 	"time"
-	"zuoluo.com/resk/infra"
 )
 
 var irisApplication *iris.Application

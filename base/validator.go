@@ -5,9 +5,9 @@ import (
 	ut "github.com/go-playground/universal-translator"
 	"github.com/go-playground/validator/v10"
 	vtzh "github.com/go-playground/validator/v10/translations/zh"
+	"github.com/gzl-tommy/infra"
 	"github.com/sirupsen/logrus"
 	"reflect"
-	"zuoluo.com/resk/infra"
 )
 
 var validate *validator.Validate

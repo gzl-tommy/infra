@@ -1,11 +1,11 @@
 package base
 
 import (
+	"github.com/gzl-tommy/infra"
 	"github.com/sirupsen/logrus"
 	"net"
 	"net/rpc"
 	"reflect"
-	"zuoluo.com/resk/infra"
 )
 
 var rpcServer *rpc.Server

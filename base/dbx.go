@@ -2,11 +2,11 @@ package base
 
 import (
 	_ "github.com/go-sql-driver/mysql"
+	"github.com/gzl-tommy/infra"
+	"github.com/gzl-tommy/infra/logrus"
 	log "github.com/sirupsen/logrus"
 	"github.com/tietang/dbx"
 	"github.com/tietang/props/kvs"
-	"zuoluo.com/resk/infra"
-	"zuoluo.com/resk/infra/logrus"
 )
 
 //dbx 数据库实例

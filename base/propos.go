@@ -2,9 +2,9 @@ package base
 
 import (
 	"fmt"
+	"github.com/gzl-tommy/infra"
 	"github.com/tietang/props/kvs"
 	"sync"
-	"zuoluo.com/resk/infra"
 )
 
 var props kvs.ConfigSource
