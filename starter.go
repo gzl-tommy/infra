@@ -87,6 +87,12 @@ type starterRegister struct {
 	blockingStarters    []Starter
 }
 
+func newStarterRegister() *starterRegister {
+	r := new(starterRegister)
+	r.starters = make(map[string]Starter)
+	return r
+}
+
 //启动器注册
 func (r *starterRegister) Register(s Starter) {
 	if _, ok := r.starters[reflect.TypeOf(s).String()]; ok {
@@ -109,7 +115,7 @@ func (r *starterRegister) AllStarters() []Starter {
 	return starters
 }
 
-var vStarterRegister *starterRegister = &starterRegister{}
+var vStarterRegister *starterRegister = newStarterRegister()
 
 // 注册starter
 func Register(s Starter) {
