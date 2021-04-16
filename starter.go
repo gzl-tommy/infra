@@ -82,18 +82,23 @@ func (s *BaseStarter) Priority() int                { return DEFAULT_PRIORITY }
 //服务启动注册器
 //不用需外部构造，全局只有一个
 type starterRegister struct {
+	starters            map[string]Starter
 	nonBlockingStarters []Starter
 	blockingStarters    []Starter
 }
 
 //启动器注册
 func (r *starterRegister) Register(s Starter) {
+	if _, ok := r.starters[reflect.TypeOf(s).String()]; ok {
+		logrus.Infof("the starter: %s had was registered", reflect.TypeOf(s).String())
+		return
+	}
 	if s.StartBlocking() {
 		r.blockingStarters = append(r.blockingStarters, s)
 	} else {
 		r.nonBlockingStarters = append(r.nonBlockingStarters, s)
 	}
-
+	r.starters[reflect.TypeOf(s).String()] = s
 	logrus.Infof("Register starter: %s", reflect.TypeOf(s).String())
 }
 
