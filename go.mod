@@ -43,6 +43,7 @@ require (
 	github.com/tietang/dbx v1.0.1
 	github.com/tietang/go-eureka-client/eureka v0.0.0-20190327071554-ed5a2bb78851
 	github.com/tietang/go-utils v0.1.3
+	github.com/tietang/props v2.1.0+incompatible
 	github.com/tietang/props/v3 v3.1.0
 	github.com/valyala/fasthttp v1.23.0 // indirect
 	github.com/valyala/fasttemplate v1.2.1 // indirect
