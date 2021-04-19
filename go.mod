@@ -13,7 +13,7 @@ require (
 	github.com/google/go-cmp v0.5.3 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20210202160940-bed99a852dfe // indirect
-	github.com/gzl-tommy/go-eureka-client/eureka v0.0.0-20210419040659-5d5d866e81b0
+	github.com/gzl-tommy/go-eureka-client/eureka v0.0.0-20210419090704-f88bf25d8af0
 	github.com/imkira/go-interpol v1.1.0 // indirect
 	github.com/jonboulle/clockwork v0.2.2 // indirect
 	github.com/json-iterator/go v1.1.10 // indirect
