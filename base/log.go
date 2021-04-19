@@ -7,7 +7,7 @@ import (
 	"github.com/rifflock/lfshook"
 	log "github.com/sirupsen/logrus"
 	"github.com/tietang/go-utils"
-	"github.com/tietang/props/kvs"
+	"github.com/tietang/props/v3/kvs"
 	prefixed "github.com/x-cray/logrus-prefixed-formatter"
 	"io"
 	"os"

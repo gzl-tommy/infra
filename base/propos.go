@@ -3,7 +3,7 @@ package base
 import (
 	"fmt"
 	"github.com/gzl-tommy/infra"
-	"github.com/tietang/props/kvs"
+	"github.com/tietang/props/v3/kvs"
 	"sync"
 )
 
