@@ -13,6 +13,7 @@ require (
 	github.com/google/go-cmp v0.5.3 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20210202160940-bed99a852dfe // indirect
+	github.com/gzl-tommy/go-eureka-client/eureka v0.0.0-20210419040659-5d5d866e81b0
 	github.com/imkira/go-interpol v1.1.0 // indirect
 	github.com/jonboulle/clockwork v0.2.2 // indirect
 	github.com/json-iterator/go v1.1.10 // indirect
@@ -32,9 +33,8 @@ require (
 	github.com/smartystreets/assertions v1.2.0 // indirect
 	github.com/tebeka/strftime v0.1.5 // indirect
 	github.com/tietang/dbx v1.0.1
-	github.com/tietang/go-eureka-client/eureka v0.0.0-20190327071554-ed5a2bb78851
 	github.com/tietang/go-utils v0.1.3
-	github.com/tietang/props v2.1.0+incompatible
+	github.com/tietang/props v2.2.0+incompatible // indirect
 	github.com/tietang/props/v3 v3.1.0
 	github.com/valyala/fasthttp v1.23.0 // indirect
 	github.com/valyala/fasttemplate v1.2.1 // indirect

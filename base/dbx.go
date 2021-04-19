@@ -6,7 +6,7 @@ import (
 	"github.com/gzl-tommy/infra/logrus"
 	log "github.com/sirupsen/logrus"
 	"github.com/tietang/dbx"
-	"github.com/tietang/props/kvs"
+	"github.com/tietang/props/v3/kvs"
 )
 
 //dbx 数据库实例
